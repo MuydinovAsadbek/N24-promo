@@ -25,14 +25,14 @@ img {
 }
 
 /* GLOBAL FOCUS */
-*:focus{
+*:focus {
     outline: 2px dashed #7296ec;
     outline-offset: 3px;
     padding: 4px 3px;
 }
 
 /* BUTTON */
-.button{
+.button {
     display: inline-block;
     padding: 13px 20px;
     border: 0;
@@ -44,20 +44,20 @@ img {
     cursor: pointer;
 }
 
-.button-orenge{
+.button-orenge {
     background-color: #f78b3b;
     color: #fff;
 }
 
-.button-orenge:hover{
+.button-orenge:hover {
     opacity: 0.8;
 }
 
-.button-orenge:active{
+.button-orenge:active {
     opacity: 0.6;
 }
 
-.button-block{
+.button-block {
     display: block;
     width: 100%;
 }
@@ -75,19 +75,19 @@ img {
 
 /* Site header top */
 
-.site-header-top{
+.site-header-top {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #f6f6f6;
 }
 
-.header-top-container{
+.header-top-container {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.site-header-logo{
+.site-header-logo {
     display: flex;
     padding: 8px 6px;
     margin-right: 35px;
@@ -95,15 +95,15 @@ img {
     background-color: #fff;
 }
 
-.site-header-logo:hover{
+.site-header-logo:hover {
     opacity: 0.8;
 }
 
-.site-header-logo:active{
+.site-header-logo:active {
     opacity: 0.6;
 }
 
-.currency-rates{
+.currency-rates {
     display: flex;
     align-items:center;
     padding: 0;
@@ -111,11 +111,11 @@ img {
     list-style: none;
 }
 
-.currency-rates:hover{
+.currency-rates:hover {
     opacity: 0.8;
 }
 
-.currency-rates:active{
+.currency-rates:active {
     opacity: 0.6;
 }
 
@@ -124,30 +124,29 @@ img {
 }
 
 
-.currency-rates-value{
+.currency-rates-value {
     font-size: 16px;
     line-height: 19px;
     font-weight: normal;
     color: #555;
 }
 
-.currency-rates-type{
+.currency-rates-type {
     font-size: 16px;
     line-height: 19px;
     color: #2959ce;
 }
 
 
-.lang-togle{
+.lang-togle {
     display: flex;
-    /* margin-left: auto; */
     padding: 3px;
     border-radius: 39px;
     background-color:#dce6ff;
     margin-right: 25px;
 }
 
-.lang-togle-link{
+.lang-togle-link {
     font-size: 13px;
     width: 30px;
     height: 30px;
@@ -159,7 +158,7 @@ img {
     color: #a6a6a6;
 }
 
-.lang-togle-link-active{
+.lang-togle-link-active {
    background-color: #fff;
    color: #000;
    font-size: 13px;
@@ -172,7 +171,7 @@ img {
     text-decoration: none;
 }
 
-.main-link{
+.main-link {
     background-color:#7296ec;
     color: #fff;
     border-radius: 10px;
@@ -180,16 +179,16 @@ img {
     padding: 13px 20px;
 }
 
-.main-link:hover{
+.main-link:hover {
     opacity: 0.8;
 }
 
-.main-link:active{
+.main-link:active {
     opacity: 0.6;
 }
 
 /* SITE-HEADER-MENU */
-.site-header-menu-item{
+.site-header-menu-item {
     display: flex;
     padding-left: 0;
     padding-bottom: 20px;
@@ -198,7 +197,7 @@ img {
     list-style: none;
 }
 
-.site-menu-link{
+.site-menu-link {
     margin-right: 37px;
     text-decoration: none;
     font-size: 18px;
@@ -211,24 +210,30 @@ img {
     margin-right: 0;
 }
 
-/* SITE-LINK:HOVER */
-.site-menu-link:hover{
+.site-menu-link:hover {
     opacity: 0.8;
 }
 
-/* SITE-MENU-LINK:ACTIVE */
-.site-menu-link:active{
+.site-menu-link:active {
+    opacity: 0.6;
+}
+
+.header-banner-img-link :hover {
+    opacity: 0.8;
+}
+
+.header-banner-img-link:active {
     opacity: 0.6;
 }
 
 
 /* SEARCH-MENU */
-.search-form{
+.search-form {
     margin-left: auto;
     margin-right: 28px;
 }
 
-.search-form-input{
+.search-form-input {
     padding: 15px 20px 13px 40px;
     border: 0;
     border-radius:60px;
@@ -280,7 +285,7 @@ img {
     display: inline-block;
     text-decoration: none;
     color: #000;
-    
+
 }
 
 .article-card-link:hover {
@@ -380,11 +385,11 @@ img {
 
 .article-card-horizantal-content {
      flex-grow: 1;
-     
+
 }
 
 .article-card-horizantal-title {
-    margin-top: 0; 
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -434,7 +439,7 @@ img {
     font-size: 12px;
     line-height: 14px;
     color: #5e5f61;
-    
+
 }
 
 .news-list-button {
@@ -533,7 +538,7 @@ img {
 .sidebar-ad {
     margin-top: -10px;
     background-color: #f6f6f6;
-   
+
 }
 
 .sidebar-ad-img-link {
@@ -554,7 +559,7 @@ img {
     background-color: #7297ef;
     color: #fff;
   }
-  
+
   .site-footer-logo-box {
     display: flex;
     margin-bottom: 15px;
@@ -654,11 +659,10 @@ img {
   .site-footer-socials-link {
     display: flex;
   }
-  
+
   .site-footer-socials-icon {
     flex-shrink: 0;
     width: 25px;
     height: 25px;
     object-fit: contain;
   }
-
