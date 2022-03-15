@@ -444,6 +444,16 @@ img {
 
 .news-list-button {
     padding: 17px;
+    transition: 0.4s ease;
+}
+
+.news-list-button:hover {
+    opacity: 0.4;
+    color: #2959ce;
+}
+
+.news-list-button:active {
+    opacity: 0.3;
 }
 /* LAYOUT */
 .layout-2-1 {
