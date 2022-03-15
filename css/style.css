@@ -1,5 +1,12 @@
+/* GLOBAL */
 * {
     box-sizing: border-box;
+}
+
+/* GLOBAL FOCUS */
+*:focus {
+    outline: 2px dashed #7296ec;
+    outline-offset: 3px;
 }
 
 html {
@@ -24,12 +31,6 @@ img {
     height: auto;
 }
 
-/* GLOBAL FOCUS */
-*:focus {
-    outline: 2px dashed #7296ec;
-    outline-offset: 3px;
-    padding: 4px 3px;
-}
 
 /* BUTTON */
 .button {
@@ -556,10 +557,6 @@ img {
     margin-top: -10px;
     background-color: #f6f6f6;
 
-}
-
-.sidebar-ad-img-link {
-    display: flex;
 }
 
 .sidebar-ad-img {
