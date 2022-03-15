@@ -218,6 +218,10 @@ img {
     opacity: 0.6;
 }
 
+.header-banner-img {
+    border-radius: 8px;
+}
+
 .header-banner-img-link :hover {
     opacity: 0.8;
 }
