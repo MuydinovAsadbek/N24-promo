@@ -84,7 +84,6 @@ img {
 .header-top-container {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .site-header-logo {
